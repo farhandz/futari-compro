@@ -1,19 +1,15 @@
-import { Meta } from '@/layouts/Meta';
-import { Main } from '@/templates/Main';
+// import MeComponent from '../components/me/MeComponent';
+import Homes from '../component/Home';
+import Layout from '../layouts/Layout';
 
-const Index = () => {
+export default function Home() {
   return (
-    <Main
-      meta={
-        <Meta
-          title="Next.js Boilerplate Presentation"
-          description="Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
-        />
-      }
-    >
-      <h1>Futari Digital</h1>
-    </Main>
+    <>
+      <div>
+        <Layout title="farhandz">
+          <Homes />
+        </Layout>
+      </div>
+    </>
   );
-};
-
-export default Index;
+}

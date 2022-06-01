@@ -1,0 +1,29 @@
+{
+  "title": "Navbar",
+  "data": {
+    "src": "assets/images/FutariLogo.png",
+    "text": "logo",
+    "subTitle": [
+      {
+        "text": "Home",
+        "route": "/#home"
+      },
+      {
+        "text": "Service",
+        "route": "/#Service"
+      },
+      {
+        "text": "Our Work",
+        "route": "/#Our-woks"
+      },
+      {
+        "text": "About Us",
+        "route": "/#About-Us"
+      },
+      {
+        "text": "About Us",
+        "route": "About-Us"
+      }
+    ]
+  }
+}

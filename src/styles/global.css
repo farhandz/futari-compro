@@ -19,3 +19,31 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+.bg-colour-primary {
+  background: #303031;
+}
+.bg-colour-dark {
+  background: #121923;
+}
+
+
+.section-title {
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 80px;
+}
+
+.active-nav {
+  color: #EEB521;
+}
+.active-nav::after {
+  content: '.';
+  display: block;
+  height: 1px;
+  width: 20px;
+  margin: 0px auto;
+  text-indent: -9999px;
+  border-top: 1px solid #EEB521;
+}

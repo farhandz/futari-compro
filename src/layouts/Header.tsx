@@ -1,22 +1,18 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import { NextSeo } from 'next-seo';
-
-import { AppConfig } from '@/utils/AppConfig';
 
 type IMetaProps = {
   title: string;
-  description: string;
-  canonical?: string;
 };
 
-const Meta = (props: IMetaProps) => {
+const Header = (props: IMetaProps) => {
   const router = useRouter();
 
   return (
     <>
       <Head>
         <meta charSet="UTF-8" key="charset" />
+        <title>{props.title}</title>
         <meta
           name="viewport"
           content="width=device-width,initial-scale=1"
@@ -46,8 +42,14 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/favicon.ico`}
           key="favicon"
         />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+          integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+          crossOrigin="anonymous"
+        />
       </Head>
-      <NextSeo
+      {/* <NextSeo
         title={props.title}
         description={props.description}
         canonical={props.canonical}
@@ -58,9 +60,9 @@ const Meta = (props: IMetaProps) => {
           locale: AppConfig.locale,
           site_name: AppConfig.site_name,
         }}
-      />
+      /> */}
     </>
   );
 };
 
-export { Meta };
+export default Header;
