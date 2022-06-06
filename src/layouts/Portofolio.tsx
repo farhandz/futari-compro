@@ -1,7 +1,8 @@
-import router from 'next/router';
+import { useRouter } from 'next/router';
 import React from 'react';
 
 function Portofolio() {
+  const router = useRouter();
   return (
     <div className="bg-section-porto flex w-full flex-col items-center justify-center">
       <div>
