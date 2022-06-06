@@ -27,6 +27,17 @@ a:hover {
   background: #121923;
 }
 
+.wrap-footer {
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .section-title {
 font-style: normal;
@@ -46,4 +57,54 @@ line-height: 80px;
   margin: 0px auto;
   text-indent: -9999px;
   border-top: 1px solid #EEB521;
+}
+
+.description-contact-us {
+  width: 380px;
+  padding: 30px;
+}
+
+.bg-section-contact-us {
+  background: url('../../public/assets/images/wave.png');
+  background-color: #121923;
+  padding: 40px;
+}
+
+.bg-section-we {
+  background: url('../../public/assets/images/farhan.png'), url('../../public/assets/images/mufti.png');
+  background-color: #121923;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+  background-size:  contain;
+  padding: 80px;
+}
+
+.bg-section-porto {
+  background: url('../../public/assets/images/PORTFOLIO.png');
+  background-color: #121923;
+  background-repeat: no-repeat;
+  background-size:  contain, contain;
+  background-position: right;
+  padding: 130px;
+}
+.title {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+color: #FFFFFF;
+}
+
+.sub-title {
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+
+color: #FFFFFF;
 }
