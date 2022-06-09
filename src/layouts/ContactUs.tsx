@@ -2,9 +2,9 @@ import React from 'react';
 
 function ContactUs() {
   return (
-    <div className="bg-section-contact-us flex w-full items-center justify-center">
+    <div className="bg-section-contact-us flex hidden w-full items-center justify-center">
       <div>
-        <div className="title py-5 text-center">
+        <div className="title  py-5 text-center">
           <h1> Ready to create your digital product with us ?</h1>
         </div>
         <div className="my-2 flex flex-col items-center justify-center">
@@ -12,7 +12,7 @@ function ContactUs() {
             <div className="flex flex-col">
               <span className="sub-title text-white">Name</span>
               <input
-                id="input-text"
+                id=""
                 type="text"
                 className="file:border file:border-solid"
               />
@@ -29,7 +29,6 @@ function ContactUs() {
           <div className="mt-4 flex flex-col">
             <span className="sub-title text-white">Say Hi to Us</span>
             <input
-              id="input-text"
               type="text"
               placeholder="Description"
               className="description-contact-us w-full file:border file:border-solid"

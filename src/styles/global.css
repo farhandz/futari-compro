@@ -250,7 +250,6 @@ color: #FFFFFF;
   body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
   }
   .service-between {
     display: flex;
@@ -279,6 +278,8 @@ color: #FFFFFF;
   .service-end {
     margin-right: 0px;
   }
+
+ 
 }
  
 /* Small screen devices (600px and above) */
@@ -291,8 +292,7 @@ color: #FFFFFF;
   .service-end {
     margin-right: 0px;
   }
-  
-  
+    
 }
  
 /* Medium screen devices (768px and above) */
