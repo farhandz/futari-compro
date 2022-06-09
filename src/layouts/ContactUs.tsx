@@ -11,16 +11,25 @@ function ContactUs() {
           <div className="flex">
             <div className="flex flex-col">
               <span className="sub-title text-white">Name</span>
-              <input type="text" className="file:border file:border-solid" />
+              <input
+                id="input-text"
+                type="text"
+                className="file:border file:border-solid"
+              />
             </div>
             <div className="mx-2 flex flex-col">
               <span className="sub-title text-white">Email Address</span>
-              <input type="text" className="file:border file:border-solid" />
+              <input
+                type="text"
+                id="input-text"
+                className="file:border file:border-solid"
+              />
             </div>
           </div>
           <div className="mt-4 flex flex-col">
             <span className="sub-title text-white">Say Hi to Us</span>
             <input
+              id="input-text"
               type="text"
               placeholder="Description"
               className="description-contact-us w-full file:border file:border-solid"

@@ -15,7 +15,7 @@ function Portofolio() {
         </div>
       </div>
       <div>
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid gap-4 p-3 sm:grid-cols-1 md:grid-cols-3">
           <h1 className="title">
             <img src={`${router.basePath}/assets/images/evos.png`} alt="" />
           </h1>

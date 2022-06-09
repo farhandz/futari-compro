@@ -153,6 +153,11 @@ color: #FFFFFF;
   justify-content: end;
   margin-right: 200px;
 }
+
+.service-between {
+  display: flex;
+  justify-content: space-between;
+}
 .service-center {
   display: flex;
   justify-content: start;
@@ -207,7 +212,12 @@ color: #FFFFFF;
   background-color: #121923;
   background-repeat: no-repeat;
   background-position: right;
-  padding: 130px;
+
+}
+
+#input-text {
+background: #FFFFFF;
+border-radius: 8px;
 }
 .title {
 font-family: 'Montserrat';
@@ -240,6 +250,12 @@ color: #FFFFFF;
   body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+  }
+  .service-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .section-title {
     font-style: normal;
@@ -256,6 +272,7 @@ color: #FFFFFF;
   }
 
   .wrap-service {
+   margin: 30px;
     padding-left: 0px;
     padding-right: 0px;
   }

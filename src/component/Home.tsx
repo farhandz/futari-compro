@@ -31,13 +31,13 @@ export default function Home() {
           <div className="flex w-full flex-row justify-center text-white sm:justify-end">
             <img
               src={`${router.basePath}/assets/images/macbook.png`}
-              className="img-full w-60 sm:w-4/5"
+              className="img-full"
               alt=""
               srcSet=""
             />
             <img
               src={`${router.basePath}/assets/images/mac-mini.png`}
-              className="img-mini w-60 sm:w-4/5"
+              className="img-mini"
               alt=""
               srcSet=""
             />
