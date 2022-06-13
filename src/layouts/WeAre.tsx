@@ -15,7 +15,7 @@ function WeAre() {
               We are a team of two experienced full-stack developers and a
               product designer. Starting from our passion for creating a digital
               product, now decided to provide our service to help you create
-              your digital product.
+              your digital products.
             </span>
           </Fade>
         </div>
